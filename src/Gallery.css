@@ -1,0 +1,98 @@
+.gallery {
+    height: 650px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    display: flex;
+}
+
+.gallery-section {
+    height: 600px;
+    width: 32%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, [col] auto);
+    grid-template-rows: repeat(2, auto[row]);
+    column-gap: 10px;
+    row-gap: 5px;
+    
+
+}
+
+.gallery-grid1 {
+    background-image: url(./images/gallery1.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    grid-column: col ;
+
+
+}
+
+.gallery-grid2 {
+    background-image: url(./images/gallery2.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    grid-column: col 2 ;
+   
+
+
+}
+
+.gallery-grid3 {
+    background-image: url(./images/gallery3.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    grid-column: col / span 2 ;
+    grid-row: row  ;
+
+
+}
+
+.gallery-grid4 {
+    background-image: url(./images/gallery4.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    grid-column: col / span 2;
+
+
+}
+
+.gallery-grid5 {
+   background-image: url(./images/gallery5.jpg);
+    grid-column: col / span 2;
+    grid-row: row  ;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+}
+
+.gallery-grid6 {
+    background-image: url(./images/gallery6.jpg);
+    grid-column: col / span 2;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+}
+
+.gallery-grid7 {
+    background-image: url(./images/gallery7.jpg);
+    grid-column: col / span 2;
+    grid-row: row / span 2;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+}
+
+

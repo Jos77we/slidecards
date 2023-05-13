@@ -1,0 +1,18 @@
+.topbar{
+   height: 90px;
+   width: 100%;
+   background: linear-gradient(90deg, rgb(4, 19, 19), rgb(3, 78, 78) 100%);
+   display: flex;
+   border-radius: 60px;
+   
+   
+}
+
+.topbar-heads{
+   color: white;
+   font-family: 'Explora';
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin-left: 50px;
+   
+}
